@@ -17,7 +17,6 @@
         <module>java-12-weborigin-servlet</module>
         <module>java-21-mvc-springmvc</module>
         <module>java-20-mvc-spring</module>
-        <module>java-25-springboot2</module>
         <module>java-22-mvc-mybatis</module>
         <module>java-23-mvc-mybatis-plus</module>
         <module>java-24-ssm</module>
