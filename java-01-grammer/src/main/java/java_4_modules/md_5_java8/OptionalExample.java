@@ -71,9 +71,9 @@ public class OptionalExample {
 
         //isEmpty  Java 11及以上版本
         Optional<String> emptyOptional = Optional.ofNullable(getString());
-        if (emptyOptional.isEmpty()) {
+        /*if (emptyOptional.isEmpty()) {
             System.out.println("Optional is empty");
-        }
+        }*/
 
         //ifPresent
         nonEmptyOptional.ifPresent(value -> System.out.println("value is :" + value));
