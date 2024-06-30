@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!-- 启用全局缓存 -->
+        <setting name="cacheEnabled" value="true"/>
+
+        <!-- 启用延迟加载 -->
+        <setting name="lazyLoadingEnabled" value="true"/>
+
+        <!-- 当启用时，任何方法的调用都会加载该对象的所有属性。否则，每个属性会按需加载（默认值：false） -->
+        <setting name="aggressiveLazyLoading" value="false"/>
+
+        <!-- 指定 MyBatis 增加到日志名称的前缀 -->
+        <setting name="logPrefix" value="mybatis-"/>
+
+        <!-- 其他设置... -->
+    </settings>
+
+</configuration>

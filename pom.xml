@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.yuan</groupId>
+    <artifactId>JavaBackend</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>java-01-grammer</module>
+        <module>java-02-maven</module>
+        <module>java-03-thirdlibs</module>
+        <module>java-04-algorithm</module>
+        <module>java-05-thinking-in-java-4th</module>
+        <module>java-12-weborigin-servlet</module>
+        <module>java-21-mvc-springmvc</module>
+        <module>java-20-mvc-spring</module>
+        <module>java-25-springboot2</module>
+        <module>java-22-mvc-mybatis</module>
+        <module>java-23-mvc-mybatis-plus</module>
+        <module>java-24-ssm</module>
+        <module>java-25-springboot2</module>
+        <module>java-26-springboot3</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.ini4j</groupId>
+            <artifactId>ini4j</artifactId>
+            <version>0.5.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version> <!-- 请确保使用最新版本 -->
+            <scope>provided</scope>
+        </dependency>
+
+    </dependencies>
+
+</project>
